@@ -27,8 +27,8 @@
 ---
 
 ## 🚀 Projects
-- 🔬 **[Colon Cancer Prediction](https://github.com/AdiityaRaj/colon-cancer-web-app)** – Deep Learning model for medical imaging  
-- 🧠 **[NLP Playground](https://github.com/AdiityaRaj/nlp-playground)** – Experiments with text
+- 🔬 **[Colon Cancer Prediction](https://huggingface.co/spaces/gguprojec/colon-cancer-app)** – Deep Learning model for medical imaging  
+- 🧠 **[NLP Playground](https://nlp-play.streamlit.app/)** – Experiments with text
 - 🤝 **[SupportSense](#)** – AI-powered customer support ticket system  
 
 ---
