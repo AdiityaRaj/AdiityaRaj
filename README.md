@@ -27,9 +27,9 @@
 ---
 
 ## 🚀 Projects
+- 🤝 **[SupportSense](https://github.com/AdiityaRaj/SupportSense)** – AI-powered customer support ticket system  
 - 🔬 **[Colon Cancer Prediction](https://huggingface.co/spaces/gguprojec/colon-cancer-app)** – Deep Learning model for medical imaging  
 - 🧠 **[NLP Playground](https://nlp-play.streamlit.app/)** – Experiments with text
-- 🤝 **[SupportSense](https://github.com/AdiityaRaj/SupportSense)** – AI-powered customer support ticket system  
 
 ---
 
@@ -55,7 +55,7 @@
 
 ---
 
-## 🐍 Contribution Snake
+## 🐍 Contribution
 ![GitHub Snake Light](https://raw.githubusercontent.com/AdiityaRaj/AdiityaRaj/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 ![GitHub Snake Dark](https://raw.githubusercontent.com/AdiityaRaj/AdiityaRaj/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
