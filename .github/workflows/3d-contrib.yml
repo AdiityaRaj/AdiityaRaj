@@ -1,0 +1,40 @@
+name: Generate 3D Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 1 * * *"   # daily 01:00 UTC
+  workflow_dispatch:       # manual run
+
+permissions:
+  contents: write          # needed to commit svgs
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate 3D graphs
+        uses: yoshi389111/github-profile-3d-contrib@v0.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: AdiityaRaj
+          # optional theme presets; you can change later:
+          SETTINGS_JSON: >-
+            {
+              "username":"AdiityaRaj",
+              "tilt": 10,
+              "days": 365,
+              "center": 0,
+              "hide_border": true,
+              "colored": "rainbow",     /* night-rainbow */
+              "grid": "short",
+              "radius": 10
+            }
+
+      - name: Commit & Push SVGs
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update 3D contribution graphs"
+          file_pattern: "profile-3d-contrib/**"
