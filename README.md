@@ -55,6 +55,12 @@
 
 ---
 
+## 🌌 3D Contribution Graph
+<p align="center">
+  <img src="https://github.com/AdiityaRaj/AdiityaRaj/blob/main/profile-3d-contrib/profile-night-rainbow.svg" />
+</p>
+
+---
 ## 🐍 Contribution Snake
 ![GitHub Snake Light](https://raw.githubusercontent.com/AdiityaRaj/AdiityaRaj/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 ![GitHub Snake Dark](https://raw.githubusercontent.com/AdiityaRaj/AdiityaRaj/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
@@ -67,4 +73,6 @@
   <a href="https://instagram.com/adiitya_raj" target="_blank"><img src="https://skillicons.dev/icons?i=instagram" /></a>
   <a href="mailto:rajaditya2424@gmail.com" target="_blank"><img src="https://skillicons.dev/icons?i=gmail" /></a>
 </p>
+
+
 
